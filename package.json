@@ -1,24 +1,27 @@
 {
-	"name": "siarheibobryk.github.io",
-	"private": true,
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "6.0.0",
-		"@sveltejs/kit": "2.20.7",
-		"@sveltejs/vite-plugin-svelte": "5.0.3",
-		"svelte": "5.28.1",
-		"svelte-check": "4.1.6",
-		"typescript": "5.8.3",
-		"vite": "6.3.2"
-	},
-	"packageManager": "yarn@4.9.1"
+  "name": "siarheibobryk.github.io",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "6.0.0",
+    "@sveltejs/kit": "2.20.7",
+    "@sveltejs/vite-plugin-svelte": "5.0.3",
+    "prettier": "3.5.3",
+    "svelte": "5.28.1",
+    "svelte-check": "4.1.6",
+    "typescript": "5.8.3",
+    "vite": "6.3.2"
+  },
+  "packageManager": "yarn@4.9.1"
 }
