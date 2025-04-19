@@ -23,6 +23,9 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Install Corepack
+        run: npm install -g corepack
+
       - name: Install dependencies
         run: yarn
 
