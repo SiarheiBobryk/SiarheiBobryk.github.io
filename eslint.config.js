@@ -26,9 +26,7 @@ export default ts.config(
         tsconfigRootDir: import.meta.dirname,
       },
     },
-    rules: {
-      'comma-dangle': ['error', 'always-multiline'],
-    },
+    rules: {},
   },
   {
     files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
