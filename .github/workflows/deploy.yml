@@ -30,8 +30,6 @@ jobs:
         run: yarn
 
       - name: build
-        env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           yarn build
 
